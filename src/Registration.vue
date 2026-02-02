@@ -746,13 +746,92 @@ export default {
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) {
+  .registration-form {
+    max-width: 480px;
+    padding: 48px 42px;
+  }
+
+  .form-header h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .registration-form {
+    max-width: 450px;
+    padding: 45px 40px;
+  }
+
+  .form-header h1 {
+    font-size: 2.3rem;
+  }
+
+  .form-header p {
+    font-size: 0.95rem;
+  }
+}
+
 @media (max-width: 768px) {
+  .registration-container {
+    padding: 25px 20px;
+  }
+
+  .registration-form {
+    padding: 42px 35px;
+    max-width: 420px;
+  }
+
+  .logo {
+    width: 75px;
+    height: 75px;
+  }
+
+  .logo-center {
+    width: 38px;
+    height: 38px;
+  }
+
+  .form-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .form-header p {
+    font-size: 0.92rem;
+  }
+
+  .form-group {
+    margin-bottom: 28px;
+  }
+
+  .input-wrapper input {
+    padding: 15px 19px;
+    font-size: 0.98rem;
+  }
+
+  .register-btn {
+    font-size: 1.15rem;
+    padding: 17px 38px;
+  }
+
+  .label-icon {
+    width: 19px;
+    height: 19px;
+  }
+
+  .label-text {
+    font-size: 0.93rem;
+  }
+}
+
+@media (max-width: 640px) {
   .registration-container {
     padding: 20px 15px;
   }
 
   .registration-form {
     padding: 40px 30px;
+    max-width: 400px;
   }
 
   .logo {
@@ -777,9 +856,152 @@ export default {
     margin-bottom: 25px;
   }
 
+  .input-wrapper input {
+    padding: 14px 18px;
+    font-size: 0.95rem;
+  }
+
   .register-btn {
     font-size: 1.1rem;
     padding: 16px 35px;
+  }
+
+  .label-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .label-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .registration-container {
+    padding: 15px 10px;
+  }
+
+  .registration-form {
+    padding: 35px 25px;
+    max-width: 100%;
+    border-radius: 25px;
+  }
+
+  .logo {
+    width: 65px;
+    height: 65px;
+  }
+
+  .logo-center {
+    width: 32px;
+    height: 32px;
+  }
+
+  .form-header h1 {
+    font-size: 1.9rem;
+    margin-bottom: 8px;
+  }
+
+  .form-header p {
+    font-size: 0.88rem;
+  }
+
+  .form-group {
+    margin-bottom: 22px;
+  }
+
+  .form-group label {
+    font-size: 0.88rem;
+    gap: 8px;
+  }
+
+  .input-wrapper input {
+    padding: 13px 17px;
+    font-size: 0.93rem;
+    border-radius: 14px;
+  }
+
+  .register-btn {
+    font-size: 1.05rem;
+    padding: 15px 32px;
+    border-radius: 16px;
+  }
+
+  .btn-content {
+    gap: 10px;
+  }
+
+  .btn-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .form-footer p {
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .registration-container {
+    padding: 10px 8px;
+  }
+
+  .registration-form {
+    padding: 30px 20px;
+    border-radius: 20px;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo-center {
+    width: 30px;
+    height: 30px;
+  }
+
+  .form-header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 6px;
+  }
+
+  .form-header p {
+    font-size: 0.85rem;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    font-size: 0.85rem;
+    gap: 6px;
+  }
+
+  .input-wrapper input {
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    border-radius: 12px;
+  }
+
+  .register-btn {
+    font-size: 1rem;
+    padding: 14px 30px;
+    border-radius: 15px;
+  }
+
+  .btn-content {
+    gap: 8px;
+  }
+
+  .btn-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .form-footer p {
+    font-size: 0.8rem;
   }
 }
 </style>
